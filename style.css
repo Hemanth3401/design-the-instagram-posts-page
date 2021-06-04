@@ -119,7 +119,7 @@ main {
 }
 
 .stories-section .profile-story img{
-  height: 80px;
+  height: 70px;
   width: auto;
   border-radius: 50%;
 }
@@ -160,4 +160,10 @@ main {
   height: 150px;
   border: none;
   border-radius: 50%;
+}
+
+.content-menu-tabs hr{
+  border: none;
+  border-top: 2px solid #dbdbdb;
+  padding-top: 50px;
 }
