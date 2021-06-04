@@ -1,4 +1,5 @@
-/*grey: #fafafa;
+/*
+grey: #fafafa;
 grey-dark: #dbdbdb;
 grey-darker: #8e8e8e;
 blue: #0095f6;
@@ -70,4 +71,93 @@ main {
   background-color: #fafafa;
   justify-self: center;
   width: 100%;
+}
+
+.profile-header-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 50px;
+}
+
+.profile-header-section  .profile-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 50px ;
+}
+
+.profile-header-section .profile-content .profile-head{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-header-section .profile-content .profile-head .sect{
+  margin-right: 10px;
+  font-size: 28px;
+}
+
+.profile-header-section .profile-content .profile-head .Follow , .profile-header-section .profile-content .profile-head .i {
+  font-size: 16px;
+  padding: 0px 25px 0px 25px;
+  background-color: #0095f6;
+  color: #fff;
+  border: 0;
+}
+
+.profile-header-section  .profile-content .profile-head .mor{
+  font-size: 16px;
+}
+
+.stories-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stories-section .profile-story{
+  padding: 25px 50px 25px 50px;
+}
+
+.stories-section .profile-story img{
+  height: 80px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.stories-section .profile-story p{
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.profile-header-section .profile-img img{
+  height: 150px;
+  border: none;
+  border-radius: 50%;
+}
+
+.profile-stat{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-stat p{
+  padding-right: 30px;
+}
+
+.profile-header-section .profile-stat a{
+  text-decoration: none;
+  color: #262626;
+  font-weight: bold;
+}
+
+.profile-header-section  .profile-img{
+  margin-right: 75px;
+}
+
+.profile-header-section .profile-img img{
+  height: 150px;
+  border: none;
+  border-radius: 50%;
 }
