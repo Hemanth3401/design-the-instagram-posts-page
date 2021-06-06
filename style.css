@@ -5,6 +5,7 @@ grey-darker: #8e8e8e;
 blue: #0095f6;
 blue-darker: #00376b;
 black: #262626;
+2px solid #262626 
 */
 
 *,
@@ -13,6 +14,10 @@ black: #262626;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+button , a{
+  cursor: pointer;
 }
 
 main {
@@ -27,6 +32,7 @@ main {
   width: 80%;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
+  padding-top: 20px;
 }
 
 .navbar {
@@ -96,9 +102,17 @@ main {
   font-size: 28px;
 }
 
-.profile-header-section .profile-content .profile-head .Follow , .profile-header-section .profile-content .profile-head .i {
+.profile-header-section .profile-content .profile-head .Follow {
   font-size: 16px;
   padding: 0px 25px 0px 25px;
+  background-color: #0095f6;
+  color: #fff;
+  border: 0;
+}
+
+.profile-header-section .profile-content .profile-head .i{
+  font-size: 16px;
+  padding: 0px 15px 0px 15px;
   background-color: #0095f6;
   color: #fff;
   border: 0;
@@ -122,20 +136,18 @@ main {
   height: 70px;
   width: auto;
   border-radius: 50%;
+  border: 1px solid;
+  background: conic-gradient(#9ED110, #50B517, #179067, #476EAF, #9f49ac, #CC42A2, #FF3BA7, #FF5800, #FF8100, #FEAC00, #FFCC00, #EDE604);
 }
 
 .stories-section .profile-story p{
+  padding-top: 5px;
   font-size: 16px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.profile-header-section .profile-img img{
-  height: 150px;
-  border: none;
-  border-radius: 50%;
-}
 
 .profile-stat{
   display: flex;
@@ -165,5 +177,5 @@ main {
 .content-menu-tabs hr{
   border: none;
   border-top: 2px solid #dbdbdb;
-  padding-top: 50px;
+  padding-top: 25px;
 }
