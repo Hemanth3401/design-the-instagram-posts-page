@@ -179,3 +179,32 @@ main {
   border-top: 2px solid #dbdbdb;
   padding-top: 25px;
 }
+
+
+.content-menu-tabs {
+  align-items: center;
+  border-top: 1px solid #dbdbdb;
+  border-top: 1px solid rgba(var(--b38,219,219,219),1);
+  color: #8e8e8e;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.active{
+  border-top: 2px solid black;
+  color: #262626;
+  margin-top: -15px;
+  padding-top: 15px;
+}
+
+.tab{
+  padding-left: 50px;
+  padding-right: 50px;
+}
